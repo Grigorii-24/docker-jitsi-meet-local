@@ -37,3 +37,9 @@ If you plan to install the jitsi-meet stack on a Kubernetes cluster you can find
 ## TODO
 
 * Builtin TURN server.
+
+## Recorder Bot
+
+The `recorder-bot` directory contains a sample service that joins a conference as
+a hidden participant (using the `recorder` XMPP domain) and records each
+speaker's audio into separate files inside `recordings/<room>/`.

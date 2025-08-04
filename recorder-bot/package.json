@@ -1,0 +1,15 @@
+{
+  "name": "recorder-bot",
+  "version": "1.0.0",
+  "description": "Invisible recorder bot that captures each participant's audio stream into separate files",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'no tests specified'"
+  },
+  "dependencies": {
+    "lib-jitsi-meet": "git+https://github.com/jitsi/lib-jitsi-meet.git",
+    "wrtc": "^0.4.7",
+    "wav": "^1.0.2"
+  }
+}
